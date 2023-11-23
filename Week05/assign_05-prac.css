@@ -1,0 +1,11 @@
+.divvv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.divvv2 {
+    background-color: blueviolet;
+    font-size: 30px;
+    color: white;
+}

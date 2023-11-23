@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.navi {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 200px;
+    background-color: rgb(255, 241, 164);
+}
+
+.headerText {
+    line-height: 200px;
+    vertical-align: middle;
+    margin-left: 1490px;
+    font-size:  100px;
+    font-weight: bold;
+}
+
+.navi > li {
+    width: 20%; /* 20 X 5=100 */
+    height: 150px;
+    float: left; /* <li>태그들이 왼쪽에 흐르게 설정(그러면 아래있는 내용은 오른쪽으로 옴) */
+    line-height: 140px; /* 글씨가 가운데로 오도록 하기 위해 한 줄의 높이를 140px로 설정 */
+    vertical-align: middle; /* 세로 정렬을 가운데로 설정(line-height와 함께 설정 필요함)*/
+    text-align: center; /* 글씨 정렬을 가운데로 설정*/
+    background-color: #5778ff;
+    list-style-type: none;
+}
+
+.menuLink {
+    text-decoration: none; /* 링크가 가지는 기본 꾸밈 효과(밑줄 등)를 없앰*/
+    color: white; /* 글씨 흰색 */
+    display: block; /* 글씨가 있는 부분 뿐만 아니라 전체 영역을 클릭해도 링크가 걸리게 */
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.menuLink:hover { /* menuLink 클래스를 가진 태그에 마우스가 over되면 */
+    color: black;
+    background-color: #7591ff;
+}
+
+.mainBanner {
+    height: 500px;
+    background-color: bisque;
+}
+
+.container {
+    height: 2400px;
+    background-color: #ffdfdf;
+    padding: 20px;
+    
+}
+
+.leftBox {
+    display: inline-block;
+    width: 800px;
+    height: 1400px;
+    margin-left: 550px;
+    margin-top: 300px;
+    background-color: mediumturquoise;
+}
+
+.centerBox {
+    display: inline-block;
+    width: 800px;
+    height: 1400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(255, 152, 170);
+}
+
+.rightBox {
+    display: inline-block;
+    width: 800px;
+    height: 1400px;
+    background-color: rgb(216, 255, 158);
+    
+}
+
+.inText {
+    font-size: 50px;
+    line-height: 50px; /* 글씨가 가운데로 오도록 하기 위해 한 줄의 높이를 50px로 설정 */
+    vertical-align: middle; /* 세로 정렬을 가운데로 설정(line-height와 함께 설정 필요함)*/
+    text-align: center; /* 글씨 정렬을 가운데로 설정*/
+    padding-top: 650px;
+}
+
+.footer {
+    height: 100px;
+    background-color: gold;
+    font-size: 50px;
+    color: rgb(167, 167, 167);
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}

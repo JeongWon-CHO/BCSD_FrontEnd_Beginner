@@ -1,0 +1,20 @@
+#input {
+    height: 20px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px #aaaaaa; /*X오프셋 Y오프셋 블러반경 퍼짐반경 색상*/
+}
+
+#delBtn {
+    margin: 4px;
+    height: 28px;
+    background-color: rgb(255, 232, 232);
+    border: none;
+}
+
+#comBtn {
+    margin: 4px;
+    height: 28px;
+    background-color: rgb(237, 237, 237);
+    border: none;
+}

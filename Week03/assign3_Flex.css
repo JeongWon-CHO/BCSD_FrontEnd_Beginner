@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    /* display: inline-flex; */
+
+	flex-direction: row;
+	/* flex-direction: column; */
+	/* flex-direction: row-reverse; */
+	/* flex-direction: column-reverse; */
+
+    /*flex-wrap: nowrap;*/
+	flex-wrap: wrap;
+	/* flex-wrap: wrap-reverse; */
+
+
+    /* 수직축 방향 정렬 */
+    justify-content: flex-start;
+	/* justify-content: flex-end; */
+	/* justify-content: center; */
+	/* justify-content: space-between; */
+	/* justify-content: space-around; */
+	/* justify-content: space-evenly; */
+
+
+    /* 여러 행 정렬 */
+    flex-wrap: wrap;
+	align-content: stretch;
+	/* align-content: flex-start; */
+	/* align-content: flex-end; */
+	/* align-content: center; */
+	/* align-content: space-between; */
+	/* align-content: space-around; */
+	/* align-content: space-evenly; */
+
+}
+
+
+.item {
+    background-color: aqua;
+    margin: 2px;
+    flex-basis: 600px;
+
+}
+
+
+.item {
+	flex-basis: auto; /* 기본값 */
+	/* flex-basis: 0; */
+	/* flex-basis: 50%; */
+	/* flex-basis: 300px; */
+	/* flex-basis: 10rem; */
+	/* flex-basis: content; */
+
+
+    /* 유연하게 늘리기 */
+    flex-grow: 1;
+	/* flex-grow: 0; */ /* 기본값 */
+
+
+
+    /* 유연하게 줄이기 */
+
+}
+
+.item {
+	flex-basis: 150px;
+	flex-shrink: 1; /* 기본값 */
+}
+
+.item:nth-child(1) { order: 3; } /* A */
+.item:nth-child(2) { order: 1; } /* B */
+.item:nth-child(3) { order: 2; } /* C */
+
+.item:nth-child(2) {
+	z-index: 1;
+	transform: scale(2);
+}
+/* z-index를 설정 안하면 0이므로, 1만 설정해도 나머지 아이템을 보다 위로 올라온다 */
